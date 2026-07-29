@@ -5,6 +5,9 @@ on:
     tags: ["v*"]
   workflow_dispatch:   # allows manual runs from the Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   build:
     strategy:
