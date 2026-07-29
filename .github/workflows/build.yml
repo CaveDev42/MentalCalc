@@ -28,7 +28,7 @@ jobs:
 
       - name: Install wxPython (Linux, prebuilt wheel)
         if: runner.os == 'Linux'
-        run: pip install -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04 wxPython
+        run: pip install --only-binary wxPython -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-24.04 wxPython
 
       - name: Install dependencies
         run: pip install wxPython python-docx pyinstaller
