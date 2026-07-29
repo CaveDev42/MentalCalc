@@ -178,7 +178,7 @@ class MentalCalcFrame(wx.Frame):
         """Display an About Dialog"""
         wx.MessageBox("This is a GUI for Mental Calc,"
                       " a simple script to generate exercise sheets for mental arithmetic.\n"
-                      "Written by Martin Groß in order to torment innocent children ;-)",
+                      "Written by Martin Groß",
                       "About Mental Calc",
                       wx.OK | wx.ICON_INFORMATION)
 

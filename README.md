@@ -1,6 +1,6 @@
 # Mental Calc
 
-A small desktop app that generates printable mental-arithmetic exercise sheets as Word documents — written, in the author's own words, "in order to torment innocent children ;-)"
+A small desktop app that generates printable mental-arithmetic exercise sheets as Word documents.
 
 ## What it does
 
